@@ -54,6 +54,27 @@ MAIL_USERNAME=XXXXX
 MAIL_PASSWORD=XXXXXX
 MAIL_FROM_ADDRESS="no-reply@example.com"
 
+PostMan
+
+To Get the Records
+URL: /api/list
+Method:GET
+Header:Accept:application/json
+
+To Post the Records
+URL: /api/save
+Method:POST
+Body->raw:JSON
+{
+    "name":"kamal",
+    "email":"kam11l@gmail.com",
+    "phone":"999666336",
+    "company":"XYZ"
+}
+
+
+
+
 
 
 
